@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "@/hooks/use-toast";
-import heroPhone from "@/assets/hero-phone.png";
+import heroPhone from "@/assets/hero-phone2.png";
 
 export const Hero = () => {
   const [email, setEmail] = useState("");
@@ -98,7 +98,7 @@ export const Hero = () => {
               <img
                 src={heroPhone}
                 alt="Prolog app interface showing voice workout logging"
-                className="w-full max-w-md mx-auto drop-shadow-2xl glow-effect"
+                className="w-full max-w-lg mx-auto drop-shadow-2xl glow-effect"
               />
             </div>
           </div>
